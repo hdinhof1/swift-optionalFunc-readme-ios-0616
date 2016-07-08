@@ -37,7 +37,8 @@ if let fruit = firstItem(fruits) {
 }
 
 
-func produceFullName(withFirstName firstName: String, middleName: String?, lastName: String) -> String {
+func produceFullName(withFirstName firstName: String, middleName: String?, lastName: String) -> String
+{
     var name = firstName
     if let middleName = middleName {
         name = "\(name) \(middleName)"
